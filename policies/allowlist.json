@@ -1,0 +1,6 @@
+{
+  "allowed_tools": ["sys.info"],
+  "allowed_shell_prefixes": ["uname", "id", "getprop", "ps", "ls"],
+  "denied_shell_prefixes": ["rm", "dd", "mkfs", "reboot", "fastboot"],
+  "notes": "Expand tools only after the emulator lab is stable."
+}
